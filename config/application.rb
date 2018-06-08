@@ -9,6 +9,6 @@ Bundler.require(*Rails.groups)
 module Collabfield
   class Application < Rails::Application
     config.load_defaults 5.2
-    config.aciton_controller.include_all_heplers = false
+    config.action_controller.include_all_heplers = false
   end
 end
