@@ -1,5 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "base/variables";
-@import "partials/*"
+@import "base/default";
+@import "partials/*";
 @import "partials/layout/*";
